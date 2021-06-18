@@ -6,5 +6,15 @@
     &__copy{
         padding-top: 15px;
         padding-bottom: 15px;
+    }  
+}
+@media screen and (min-width: 1024px){
+    .footer{
+        &__link{
+            display: inline-block;
+        }
+        &__list{
+            margin-top: 30px;
+        }
     }
 }
