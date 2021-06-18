@@ -1,0 +1,53 @@
+.navigation{
+    background-color: $black;
+    color: $white;
+    position: relative;
+    &__logo{
+        position: absolute;
+        top: .9em;
+        left: 2.5em;
+    }
+    &__container{
+        min-height: 0;
+        padding: 0;
+        overflow: hidden;
+        display: none;
+    }
+}
+.callapsible{
+    text-align: right;
+    label{
+        display: block;
+        padding-top: .5em;
+        padding-right: 1.5em;
+        padding-bottom: .5em;
+        font-size: 1.8em;
+    }
+    &:hover{
+        color: $tangerine;
+    }
+}
+#menu{
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+    .navigation{
+        height: 65px;
+        &__container{
+            display: block;
+            text-align: right;
+            float: right;
+        }
+        &__list{
+            margin-top: 20px;
+        }
+        &__item{
+            display: inline-block;
+            margin-right: 10px;
+        }
+    }
+    .callapsible{
+        display: none;
+    }
+}

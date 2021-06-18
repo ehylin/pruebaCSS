@@ -1,0 +1,136 @@
+ul {
+  list-style: none;
+  margin: 0; }
+
+.container {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+body {
+  margin: 0; }
+
+img {
+  max-width: 100%; }
+
+h1, h2, h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700; }
+
+p {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400; }
+
+li {
+  font-family: "Poppins", sans-serif; }
+
+.navigation {
+  background-color: #000000;
+  color: #ffffff;
+  position: relative; }
+  .navigation__logo {
+    position: absolute;
+    top: .9em;
+    left: 2.5em; }
+  .navigation__container {
+    min-height: 0;
+    padding: 0;
+    overflow: hidden;
+    display: none; }
+
+.callapsible {
+  text-align: right; }
+  .callapsible label {
+    display: block;
+    padding-top: .5em;
+    padding-right: 1.5em;
+    padding-bottom: .5em;
+    font-size: 1.8em; }
+  .callapsible:hover {
+    color: #FFAF6D; }
+
+#menu {
+  display: none; }
+
+@media screen and (min-width: 1024px) {
+  .navigation {
+    height: 65px; }
+    .navigation__container {
+      display: block;
+      text-align: right;
+      float: right; }
+    .navigation__list {
+      margin-top: 20px; }
+    .navigation__item {
+      display: inline-block;
+      margin-right: 10px; }
+
+  .callapsible {
+    display: none; } }
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 15px; }
+  .footer__copy {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+
+.main-section__info, .main-section__development {
+  border: 1px solid #000000; }
+.main-section__development {
+  margin-top: 20px; }
+
+.card {
+  padding: 10px;
+  margin: 15px;
+  border: 1px solid #afaeae; }
+  .card__ico {
+    padding: 0; }
+  .card__list {
+    display: inline-block; }
+
+.card-development {
+  padding: 15px; }
+  .card-development__image, .card-development__title {
+    text-align: center; }
+  .card-development__img {
+    border-radius: 50%;
+    max-width: 160px;
+    border: 1px solid #000000; }
+  .card-development__social {
+    padding: 0;
+    text-align: center; }
+  .card-development__redes {
+    display: inline-block; }
+  .card-development__title-curs {
+    text-align: center;
+    background-color: #2E1503;
+    color: #ffffff; }
+  .card-development__list {
+    list-style: circle; }
+
+@media screen and (min-width: 1024px) {
+  .banner__image {
+    display: flex;
+    justify-content: center; }
+  .banner__img {
+    width: 500px; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 50% 50%; }
+
+  .main-section__development {
+    margin-top: 0;
+    margin-left: 15px; }
+
+  .card-development__link {
+    text-decoration: none; } }
+.button {
+  color: #000000;
+  background-color: #FFAF6D;
+  text-decoration: none; }
+  .button:hover {
+    background-color: #ffffff; }
+
+/*# sourceMappingURL=main.css.map */

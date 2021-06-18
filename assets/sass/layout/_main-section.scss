@@ -1,0 +1,69 @@
+.main-section{
+    &__info, &__development{
+        border: 1px solid $black;
+    }
+    &__development{
+        margin-top: 20px;
+    }
+}
+.card{
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid #afaeae;
+    &__ico{
+        padding: 0;
+    }
+    &__list{
+        display: inline-block;
+    }
+}
+.card-development{
+    padding: 15px;
+    &__image, &__title{
+        text-align: center;
+    }
+    &__img{
+        border-radius: 50%;
+        max-width: 160px;
+        border: 1px solid $black;
+    }
+    &__social{
+        padding: 0;
+        text-align: center;
+    }
+    &__redes{
+        display: inline-block;
+    }
+    &__title-curs{
+        text-align: center;
+        background-color: $charcoal;
+        color: $white;
+    }
+    &__list{
+        list-style: circle;
+    }
+}
+@media screen and (min-width: 1024px){
+    .banner{
+        &__image{
+            display: flex;
+            justify-content: center;
+        }
+        &__img{
+            width: 500px;
+        }
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .main-section__development{
+        margin-top: 0;
+        margin-left: 15px;
+    }
+    .card-development{
+        &__link{
+            text-decoration: none;
+        }
+    }
+}
